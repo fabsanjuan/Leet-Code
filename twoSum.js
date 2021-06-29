@@ -22,7 +22,6 @@ function twoSums(nums, target) {
 
 // Solution 2:
 // Subtract each element in the list from the target number and check if it coincides with another element from the list.
-
 var twoSum = function(nums, target) {
     for (i=0; i < nums.length; i++) {
     	var value = target - nums[i];
