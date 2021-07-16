@@ -8,7 +8,6 @@ def roman_2_int(roman_num):
     standard_numerals = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     # Variable that holds the running total in decimal notation.
     running_total = []
-
     # Count each roman numeral instance and convert count to decimal value. Add to total.
     for key in standard_numerals.keys():
         key_count = roman_num.count(key)
