@@ -14,7 +14,7 @@ var roman2Int = function(romanNum) {
         var keyCount = numeralArray.filter(x => x === key).length;
         if (keyCount > 0) {
             var decimalValue = keyCount * standardNumerals[key];
-            runningTotal.push(decimalValue)
+            runningTotal.push(decimalValue);
         } else {
             continue;
         }
@@ -26,8 +26,8 @@ var roman2Int = function(romanNum) {
             continue;
         }
     } // Sum all values in running total for final answer.
-    var answer = runningTotal.reduce((a, b) => a + b, 0);
-    return answer 
+    var answer = runningTotal.reduce((a, b) => a + b);
+    return answer; 
 
 }
 
